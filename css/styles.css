@@ -12,8 +12,9 @@ header>nav a {
 }
 
 header>nav a:hover {
-    color: inherit;
-    background-color: rgba(255, 255, 255, 0.9);
+    color:inherit;
+    background-color: rgb(205, 156, 251);
+   
 }
 
 header>nav .title {
@@ -31,13 +32,13 @@ header>nav .title>a {
 
 /* JUMBOTRON */
 .jumbotron {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(240, 228, 228, 0.893);
     background-color: #0c121d;
 }
 
 .jumbotron a.btn {
     color: rgba(255, 255, 255, .7);
-    background-color: #004777;
+    background-color: #153ee3;
     border: 1px solid;
     transition: all 0.4s;
 }
@@ -58,8 +59,8 @@ header>nav .title>a {
 }
 
 .banner_section a.btn {
-    /* color: #06090E; */
-    color: honeydew;
+    background-color: cornsilk;
+    color:brown;
     border: 1px solid;
 }
 
@@ -67,10 +68,8 @@ header>nav .title>a {
     background-color: rgba(255, 255, 255, 0.3);
     border-color: rgba(255, 255, 255, 0.3)
 }
-.bd-highlight {
-    border-color: indigo;
-    color: lightsalmon;
-}
+
+
 .elite {
     /* height: 15rem; */
     overflow: scroll;
@@ -87,11 +86,10 @@ header>nav .title>a {
 /* FOOTER */
 footer {
     background-color: #004777;
-    height:50px;
     color: #FDFFFC;
 }
 
 footer .email {
-    color: #C6D2E7;
+    color: #8fa6ce;
     letter-spacing: 3px;
 }
