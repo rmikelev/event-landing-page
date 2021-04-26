@@ -1,6 +1,96 @@
-.stage {
-    background-color: lightblue;
+body {
+    background-color: hsl(3, 84%, 48%);
 }
-.primary-color {
-    color: red;
+
+header.row {
+    background-color: #004777;
+}
+
+header>nav a {
+    color: #004777;
+    background-color: #FDFFFC;
+}
+
+header>nav a:hover {
+    color: inherit;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+header>nav .title {
+    font-size: 2.5rem;
+    color: #FDFFFC;
+}
+
+header>nav .title {
+    font-size: 1.5rem;
+}
+
+header>nav .title>a {
+    color: inherit;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    color: rgba(255, 255, 255, .7);
+    background-color: #0c121d;
+}
+
+.jumbotron a.btn {
+    color: rgba(255, 255, 255, .7);
+    background-color: #004777;
+    border: 1px solid;
+    transition: all 0.4s;
+}
+
+.jumbotron a.btn:hover {
+    background-color: rgba(0, 71, 119, .7);
+    color: rgba(255, 255, 255, .7);
+    border: 1px solid;
+}
+
+/* MAIN CONTENT */
+/* BANNER */
+
+.banner_section {
+    height: 240px;
+    background-color: #C6D2E7;
+    background-color: goldenrod;
+}
+
+.banner_section a.btn {
+    /* color: #06090E; */
+    color: honeydew;
+    border: 1px solid;
+}
+
+.banner_section a.btn:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.3)
+}
+.bd-highlight {
+    border-color: indigo;
+    color: lightsalmon;
+}
+.elite {
+    height: 15rem;
+    overflow: scroll;
+}
+.sect {
+    overflow: scroll;
+}
+
+.post {
+    margin-left: 18rem;
+}
+
+/* FOOTER */
+footer {
+    background-color: #004777;
+    height: 300px;
+    color: #FDFFFC;
+}
+
+footer .email {
+    color: #C6D2E7;
+    letter-spacing: 3px;
 }
