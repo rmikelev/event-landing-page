@@ -1,6 +1,6 @@
-# bootstrap-boilerplate
+# event-landing-page
 
-A boilerpate for Bootstrap Projects
+A music festival project
 
 ## Running On
 
